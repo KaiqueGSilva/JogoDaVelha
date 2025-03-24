@@ -1,0 +1,108 @@
+/* Estilo geral */
+body {
+    background-color: #f7f7f7;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    width: 300px;
+  }
+  
+  .board {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .square {
+    width: 80px;
+    height: 80px;
+    font-size: 2rem;
+    color: #333;
+    background-color: #e0e0e0;
+    border: 2px solid #b0b0b0;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .square:hover {
+    background-color: #d0d0d0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .square:focus {
+    outline: none;
+  }
+  
+  .status {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  .scoreboard {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:active {
+    transform: translateY(2px);
+  }
+  
+  @media (max-width: 400px) {
+    .game {
+      width: 90%;
+    }
+  
+    .square {
+      width: 70px;
+      height: 70px;
+      font-size: 1.5rem;
+    }
+  
+    button {
+      width: 100%;
+    }
+  }
+  
