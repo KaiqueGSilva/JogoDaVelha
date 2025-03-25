@@ -7,7 +7,7 @@
 # Como rodar o projeto
 
 * Acesse a pasta do projeto:
-cd jogo-da-velha
+cd JogoDaVelha
 
 * Instale as dependências:
 npm install
