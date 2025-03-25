@@ -4,13 +4,13 @@
 
 <img src="jogo-da-velha.png" alt="Print-JogoDaVelha">
 
-## Como rodar o projeto
+# Como rodar o projeto
 
-# Acesse a pasta do projeto:
+* Acesse a pasta do projeto:
 cd jogo-da-velha
 
-# Instale as dependências:
+* Instale as dependências:
 npm install
 
-# Rode o projeto:
+* Rode o projeto:
 npm start
